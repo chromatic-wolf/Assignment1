@@ -5,10 +5,11 @@
 // Use println method to print initials using asterisks and an image
 
 
-class Week1
+class Week1 //class name
 {
 
 public static void main(String[] args) {
+	// prints my initals
 System.out.println("       ************         *********** ");
 System.out.println("     *             *        *           *");
 System.out.println("    *                       *           *");
@@ -20,6 +21,7 @@ System.out.println("    *                       *           *");
 System.out.println("     *             *        *           *");
 System.out.println("      *************          ***********");
 
+//i should have used a stop watch when i wask making this
 System.out.println("                        MMMMM");
 System.out.println("                          MMMMMM");
 System.out.println("                            MMMMMMM");
@@ -154,6 +156,6 @@ System.out.println("                                                          HM
 
 
 
-  }
+  }//end main
   
-}
+}//end class
