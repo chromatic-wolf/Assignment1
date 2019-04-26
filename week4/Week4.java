@@ -24,8 +24,9 @@ class Week4 //class for week 4
 		 int i = 0; //stores the counter for the loop
 		String customerName;//stores the customers name
 		 int numofgarments;//stores the number of garments the user wants
-		 int totalGarments = 0;// stores the total number of garments across all the customers
+		 double totalGarments = 0;// stores the total number of garments across all the customers
 		 double totalCharge = 0;// stores the total charged across all the customers
+		 
 
 		//Creating scanner object
 		Scanner inText = new Scanner(in); // for text values
@@ -72,10 +73,11 @@ System.out.print("\n\n");//double new line spacing
 inText.close();
 inNumber.close();
 		
+		
 		//prints the average garments ordered across the customers
-System.out.println("The average number of garments is: " + (totalGarments / N));
+System.out.printf("\n The average number of garments is: " + "$%.2f", (totalGarments / N));
 //prints the total charges across all customers
-System.out.println("The total charges collected is $" + totalCharge);
+System.out.printf("\n The total charges collected is " + "$%.2f", totalCharge);
 		
 	}//end main
 }//end class

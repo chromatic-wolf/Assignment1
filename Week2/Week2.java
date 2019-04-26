@@ -23,7 +23,7 @@ class Week2 // class name for week 2
 		Scanner inText = new Scanner(in); // for text values
 		Scanner inNumber = new Scanner(in); // for number values (ints, doubles ect)
 		System.out.print("Please enter the customer name ==> ");
-		customerName = inText.nextLine(); //takes users inpput and puts in in the variable customerName
+		customerName = inText.nextLine(); //takes users input and puts in in the variable customerName
 		System.out.print("\n"); // adds a empty line
                 System.out.print("Enter the number of garments for " + customerName + "==> ");
                 numofgarments = inNumber.nextInt(); //takes user input and puts it in variable num of garments

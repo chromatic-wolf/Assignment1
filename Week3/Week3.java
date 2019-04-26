@@ -19,7 +19,7 @@ class Week3 //class for week3
 		 final double threeGarments = 20.00;//stores price for 3 garments
 		 final double morethanthreegarments = 6.50;//stores price for more than 3 garments
 		 double charge = 0;//stores the default charge value 0
-		 int i = 0; //stores the counter for the loop
+		
 		 String customerName;//stores the customers name
 		 int numofgarments;//stores the number of garments the user wants
 		 

@@ -24,7 +24,7 @@ class Week5//class for week 5
 		 int i = 0; //initiates the loop counter
 		 String customerName;//stores the customers name
 		 int numofgarments;// stores the number of garments for the customer
-		 int totalGarments = 0;//stores the total garments collected
+		 double totalGarments = 0;//stores the total garments collected
 		 double totalCharge = 0;//stores the total charged
 
 		
@@ -52,7 +52,7 @@ class Week5//class for week 5
 
 
 		
-JOptionPane.showMessageDialog(null, String.format("%s\n%s$%.2f", "The average number of garments is: " + (totalGarments / N), "The total charges collected is " , totalCharge));// prints the totals and averages
+JOptionPane.showMessageDialog(null, String.format("%s$%.2f\n%s$%.2f", "The average number of garments is: ", (totalGarments / N), "The total charges collected is " ,totalCharge));// prints the totals and averages
 		
 	}//end main
 	
