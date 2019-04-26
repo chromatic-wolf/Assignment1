@@ -24,10 +24,11 @@ class Week2
 		Scanner inNumber = new Scanner(in);
 		System.out.print("Please enter the customer name ==> ");
 		customerName = inText.nextLine();
+		System.out.print("\n");
                 System.out.print("Enter the number of garments for " + customerName + "==> ");
                 numofgarments = inNumber.nextInt();
                 charge = numofgarments * price;
-                System.out.println("---Receipt---");
+                System.out.println("\n\n ---Receipt---");
                 System.out.println("Customer name: " + customerName);
                 System.out.println("Number of garments: " + numofgarments);
                 System.out.printf("Total charge: " + "$%.2f", charge);

@@ -19,7 +19,7 @@ class Week5
 	public static void main(String[] args) {
 		System.out.println("                             Rocky Dry Cleaners Entry System");
 		JOptionPane.showMessageDialog(null, "Welcome to Rocky Dry Cleaners Entry System");
-		 final int N = 4;
+		 final int N = 6;
 		 double charge = 0;
 		 int i = 0;
 		 String customerName;
@@ -42,7 +42,7 @@ class Week5
 				charge = calculateCharge(numofgarments);
 				totalCharge = totalCharge + charge;
 				
-				JOptionPane.showMessageDialog(null, String.format("%s\n%s\n%s\n%s","---Receipt---", "Customer name: " + customerName, "Number of garments: " + numofgarments, "Total charge: $" + charge));
+				JOptionPane.showMessageDialog(null, String.format("%s\n%s\n%s\n%s$%.2f","---Receipt---", "Customer name: " + customerName, "Number of garments: " + numofgarments, "Total charge: " , charge));
 				
 				
                 
@@ -52,7 +52,7 @@ class Week5
 
 
 		
-JOptionPane.showMessageDialog(null, String.format("%s\n%s", "The average number of garments is: " + (totalGarments / N), "The total charges collected is $" + totalCharge));
+JOptionPane.showMessageDialog(null, String.format("%s\n%s$%.2f", "The average number of garments is: " + (totalGarments / N), "The total charges collected is " , totalCharge));
 		
 	}
 	

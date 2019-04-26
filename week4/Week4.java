@@ -18,7 +18,7 @@ class Week4
 		 final double price = 8.50;
 		 final double threeGarments = 20.00;
 		 final double morethanthreegarments = 6.50;
-		 final int N = 4;
+		 final int N = 6;
 		 double charge = 0;
 		 int i = 0;
 		 String customerName;
@@ -33,10 +33,11 @@ class Week4
        
 	   
 	   while(i <= (N - 1))
-{
+	   {
+System.out.print("\n\n");
 		System.out.print("Please enter the customer name " + (i + 1) + " ==> ");
 		customerName = inText.nextLine();
-                System.out.print("Enter the number of garments for " + customerName + "==> ");
+		        System.out.print("Enter the number of garments for " + customerName + "==> ");
                 numofgarments = inNumber.nextInt();
                 
 				if (numofgarments >= 2)
@@ -56,10 +57,10 @@ class Week4
 				totalGarments = totalGarments + numofgarments;
 				totalCharge = totalCharge + charge;
 				
-                System.out.println("---Receipt---");
+                System.out.println("\n\n ---Receipt---");
                 System.out.println("Customer name: " + customerName);
                 System.out.println("Number of garments: " + numofgarments);
-                System.out.println("Total charge: $" + charge);
+                System.out.printf("Total charge: " + "$%.2f", charge);
 				i++;
 				
 }
